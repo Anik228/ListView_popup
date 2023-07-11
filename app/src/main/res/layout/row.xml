@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:layout_marginHorizontal="15dp"
+        >
+        <!-- Table Heading -->
+        <TableRow
+            android:background="@color/teal_200">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Node"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="ID"
+                android:textColor="@android:color/white"
+                android:padding="10sp"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="X"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Y"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:text="Z"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:padding="10sp"
+                android:textSize="12sp"
+                android:layout_weight="2"
+                android:gravity="center_horizontal"
+                />
+        </TableRow>
+
+
+    </TableLayout>
+
+    <ListView
+        android:id="@+id/listViewnew"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="15dp"
+        android:layout_alignParentStart="true">
+    </ListView>
+</RelativeLayout>
